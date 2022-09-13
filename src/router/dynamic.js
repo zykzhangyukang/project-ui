@@ -30,6 +30,10 @@ const dynamicRouters = [
                 component: () => import('../views/auth/func-management/index'),
             },
             {
+                path: '/wos/order-management',
+                component: () => import('../views/wos/order-management/index'),
+            },
+            {
                 path: '*',
                 component: () => import('../views/404')
             }
